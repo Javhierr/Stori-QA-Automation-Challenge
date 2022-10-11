@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuite name="ChallengeStoriAutomation-20221010151824" tests="8" time="247.281" failures="0" errors="0">
+	<testcase classname="ChallengeStoriAutomation" name="test_dropdown_class" time="22.149"/>
+	<testcase classname="ChallengeStoriAutomation" name="test_iframe" time="22.428"/>
+	<testcase classname="ChallengeStoriAutomation" name="test_suggestion_class" time="27.085"/>
+	<testcase classname="ChallengeStoriAutomation" name="test_switch_tab" time="28.706"/>
+	<testcase classname="ChallengeStoriAutomation" name="test_switch_to_alert" time="24.058"/>
+	<testcase classname="ChallengeStoriAutomation" name="test_switch_window" time="43.216"/>
+	<testcase classname="ChallengeStoriAutomation" name="test_web_table" time="32.430"/>
+	<testcase classname="ChallengeStoriAutomation" name="test_web_table_fixed" time="47.209"/>
+	<system-out><![CDATA[His mentorship program is most after in the software testing community with long waiting period.
+Hello Stori Card, share this practice page and share your knowledge
+Hello Stori Card, Are you sure you want to confirm?
+$25 courses are: ['Learn SQL in Practical + Database Testing from Scratch', 'Learn JMETER from Scratch - (Performance + Load) Testing Tool', 'QA Expert Course :Software Testing + Bugzilla + SQL + Agile', 'Master Selenium Automation in simple Python Language']
+Engineers: ['Alex', 'Jack']
+]]></system-out>
+	<system-err><![CDATA[C:\Users\Acer 15-572\PycharmProjects\StoriAutomationChallenge\Stori_Automation_Challenge.py:22: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  self.driver = webdriver.Chrome(executable_path="C://Selenium/chromedriver.exe")
+]]></system-err>
+</testsuite>
