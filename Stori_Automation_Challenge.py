@@ -20,20 +20,7 @@ def error_message():
 
 
 class ChallengeStoriAutomation(unittest.TestCase):
-    # @pytest.fixture(params=["firefox", "chrome"], scope="class")
     def setUp(self):
-        # browser = request.param
-        #match browser:
-        #    case "firefox":
-        #        self.driver = webdriver.Firefox(executable_path="C://Selenium/geckodriver.exe")
-        #        self.driver.get("https://rahulshettyacademy.com/AutomationPractice/")
-        #        self.driver.maximize_window()
-        #    case "chrome":
-        #        self.driver = webdriver.Chrome(executable_path="C://Selenium/chromedriver.exe")
-        #        self.driver.get("https://rahulshettyacademy.com/AutomationPractice/")
-        #        self.driver.maximize_window()
-        #    case _:
-        #        print("Browser not available. Try other instead")
         self.driver = webdriver.Chrome(executable_path="C://Selenium/chromedriver.exe")
         self.driver.get("https://rahulshettyacademy.com/AutomationPractice/")
         self.driver.maximize_window()
@@ -156,6 +143,11 @@ class ChallengeStoriAutomation(unittest.TestCase):
             print(text)
         except TimeoutException:
             error_message()
+
+
+    def tearDown(self):
+        self.driver.quit()
+
 
 
 if __name__ == "__main__":
