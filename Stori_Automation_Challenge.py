@@ -91,7 +91,7 @@ class ChallengeStoriAutomation(unittest.TestCase):
             actions = ActionChains(driver)
             actions.move_to_element(all_courses_button).perform()
             time.sleep(2)
-            driver.save_screenshot("test_switch_tab.png")
+            driver.save_screenshot("SwitchTab.png")
             driver.switch_to.window(main_tab)
         except TimeoutException:
             error_message()
