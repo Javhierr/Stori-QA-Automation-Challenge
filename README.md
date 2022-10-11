@@ -10,3 +10,5 @@ WebTesting Challenge with Selenium and Python
 6.- In order to get html or xml test reports switch between lines 162 and 163 in "Stori_Automation_Challenge.py" file. Comment one or another as needed.
 7.- Run the script on command line(py Stori_Automation_Challenge.py) using cmd, cmder, etc.
 
+#RTM File
+Use the next link to access the matrix: https://github.com/Javhierr/Stori-QA-Automation-Challenge/tree/master/RTM
